@@ -23,6 +23,8 @@ All options are optional.
 * `protocol` *boolean* include protocol tag. `default = false`
 * `response_code` *boolean* include http response codes. `default = false`
 * `delim` *string* char to replace pipe char with in the route `default = '-'`
+* `route_name_mapper` *function* maps the request path to a route name and includes it as a tag.
+the function signature is `(path: string) => string`
 
 ## License
 
