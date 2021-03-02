@@ -21,7 +21,7 @@
 		"node": ">=8"
 	},
 	"dependencies": {
-		"hot-shots": "^6.3.0"
+		"hot-shots": "^6.8.7"
 	},
 	"devDependencies": {
 		"jest": "^24.8.0"
